@@ -1,0 +1,90 @@
+.post {
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.post > div {
+  padding: 16px;
+  width: 70%;
+  max-width: 600px;
+  border: 1px solid #3b0062;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 4px;
+}
+.post > div > p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.post > div > h2 {
+  color: #3b0062;
+  margin-bottom: 16px;
+}
+.post > div > div {
+  align-self: flex-end;
+  display: flex;
+  gap: 24px;
+}
+
+.post > div > div > a {
+  text-decoration: none;
+  color: #3b0062;
+}
+
+.post > div > div button {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  color: #3b0062;
+  font-weight: 500;
+}
+.post > div > div button:last-child {
+  color: #d18e11;
+}
+
+.post-detail {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+.post-detail > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  max-width: 600px;
+}
+
+.post-detail > div > h2 {
+  margin-bottom: 16px;
+  color: #3b0062;
+}
+.post-detail > div > p {
+  color: #555;
+  font-weight: 500;
+}
+.post-detail > div > div {
+  margin-top: 16px;
+  width: 100%;
+  height: 2px;
+  background-color: #555;
+  margin-bottom: 50px;
+}
+.post-detail > div > img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.post-detail > div > p:last-child {
+  color: #3b0062;
+}
